@@ -333,3 +333,25 @@ nav a:hover {
     color: #94a3b8;
 }
 
+/* footer 디자인 */
+footer {
+    background-color: #1e293b;
+    color: #94a3b8;
+    padding: 28px 0;
+    font-size: 11px;
+}
+
+.footerlink {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color: #e2e8f0;
+    border-bottom: 1px solid #475569;
+    padding-bottom: 20px;
+    margin-bottom: 20px;    
+}
+
+.footerlink p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
