@@ -191,6 +191,7 @@ nav a:hover {
     text-align: center;
     background-color: white;
     border-radius: 10px;
+    margin-top: 27px;
 }
 
 .quick a:hover {
@@ -222,3 +223,113 @@ nav a:hover {
     color: #64748b;
     margin-top: 5px;
 }
+
+.news {
+    display: flex;
+    gap: 15px;
+    margin-top: 27px;
+}
+
+.panel {
+    flex: 1;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 22px;
+    background-color: white;
+}
+
+.notice-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+
+.news-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 15px;
+}
+
+.notice-title a { /* 더보기 + */
+    color: #2563a8;
+    font-size: 12px;
+}
+
+.news-title small { /* CAMPUS NOW */
+    color: #94a3b8;
+    font-size: 11px;
+}
+
+.notice-title h2 {
+    font-size: 17px;
+}
+
+.news-title h2 {
+    font-size: 17px;
+}
+
+.notice-content { /* 공지사항글 리스트 */
+    list-style: none; /* 글머리 기호 삭제 */
+    margin: 0;
+    padding: 0; /* 리스트가 기본적으로 가지고 있는 왼쪽 말머리 공간 삭제 */
+}
+
+.notice-content li {
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 8px 0;
+    align-items: center;
+}
+
+.notice-content em {
+    background-color: #fee2e2;
+    border-radius: 4px;
+    font-style: normal;
+    font-size: 11px;
+    padding: 2px 7px;
+    color: #b91c1c;
+}
+
+.notice-content span {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+.news-content {
+    display: flex;
+    gap: 15px;
+}
+
+.news-content img {
+    border-radius: 7px;
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.news-content b {
+    font-size: 12px;
+    color: #2563a8;
+}
+
+.news-content h3 {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.news-content p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.news-content span {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
