@@ -483,3 +483,43 @@ td:nth-child(3) { /* tr내 td 중 3번째 td만 선택 */
     color: white;
 }
 
+/* 게시판 글 내용보기 디자인 */
+.back {
+    color: #64748b;
+    font-size: 12px;    
+}
+
+.article {
+    border: 1px solid #e2e8f0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.articlehead {
+    background-color: #f8fafc;
+    padding: 26px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.articlehead h1 {
+    color: #1e293b;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.articlehead .meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #64748b;
+    gap: 10px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 12px;
+}
+
+.articlehead small {
+    font-size: 11px;
+    color: #94a3b8;
+}
