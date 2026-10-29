@@ -648,3 +648,77 @@ td:nth-child(3) { /* tr내 td 중 3번째 td만 선택 */
     text-align: center;
     margin-top: 20px;
 }
+
+/* 게시판 글쓰기 폼 디자인 */
+
+.formpanel {
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.form-row {
+    display: flex;
+    gap: 25px;
+}
+
+.form-row .field {
+    flex: 1;
+}
+
+.field {
+    margin-bottom: 22px;
+}
+
+.field label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #334155;
+    margin-bottom: 8px;
+}
+
+.field .red {
+    color: #dc2626;
+}
+
+.field input, .field select, .field textarea {
+    width: 100%;
+}
+
+.field textarea {
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    background-color: white;
+    font-family: inherit;
+    resize: vertical;
+}
+
+/* readonly 속성을 가진 input 만 선택 */
+.field input[readonly] {
+    background-color: #f1f5f9;
+    color: #64748b;
+}
+
+.upload {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8fafc;
+    border: 1px dashed #94a3b8 ;
+    border-radius: 7px;
+}
+
+.upload p {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.upload small {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
