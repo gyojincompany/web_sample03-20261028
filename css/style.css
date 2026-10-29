@@ -166,12 +166,14 @@ nav a:hover {
     background-color: white;
     color: #003366;
     margin-left: 5px;
+    border: 1px solid rgb(230, 228, 228);
 }
 
 /* 남색 버튼 디자인 */
 .navy-btn {
     background-color: #003366;
     color: white;
+    margin-left: 5px ;
 }
 
 .watermark {
@@ -522,4 +524,127 @@ td:nth-child(3) { /* tr내 td 중 3번째 td만 선택 */
 .articlehead small {
     font-size: 11px;
     color: #94a3b8;
+}
+
+.articlebody {
+    padding: 30px;
+    min-height: 250px;
+    font-size: 14px;
+    line-height: 2.0;
+}
+
+.articlebody .schedule {
+    border: 1px solid #bfdbfe;
+    background-color: #eff6ff;
+    border-radius: 7px;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articlebody .schedule h3 {
+    color: #003366;
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.articlebody ul {
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.file-attachment {
+    border-top: 1px solid #e2e8f0;
+    padding: 18px;
+    font-size: 12px;
+    background-color: #f8fafc;
+   
+}
+
+.file-attachment p {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: white;
+}
+
+.file-attachment a {
+    color: #2563a8;
+    font-weight: bold;
+}
+
+.file-attachment p small {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+.comments {
+    padding: 25px;
+    margin-top: 25px;
+    background-color: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+
+.comments h2 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.comments-count {
+    color: #2563a8;
+    font-size: 12px;
+}
+
+.comment {
+    border-bottom: 1px solid #e2e8f0;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.comment b {
+    color: #334155;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment span { /* 댓글 시간 표시 */
+    color: #94a3b8;   
+    font-size: 11px;
+}
+
+.comment.reply {
+    margin-left: 25px;
+    padding-left: 15px;
+    border-left: 2px solid #bfdbfe;
+    margin-bottom: 20px;
+}
+
+.comments textarea {
+    width: 100%;   
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 13px;
+    font-family: inherit;
+    padding: 10px;
+    resize: vertical;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    padding: 20px;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 20px;
+}
+
+.write-buttons {
+    text-align: center;
+    margin-top: 20px;
 }
